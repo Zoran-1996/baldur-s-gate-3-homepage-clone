@@ -1,0 +1,20 @@
+const IconThreeDots = ({ className }: { className?: string }) => {
+  return (
+    <svg
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      fill="none"
+      viewBox="0 0 20 20"
+    >
+      <path
+        className="transition-color duration-300 ease-in-out group-hover:text-white"
+        fill="currentColor"
+        d="M9.583 8.688c.69 0 1.25.587 1.25 1.312s-.56 1.313-1.25 1.313-1.25-.588-1.25-1.313.56-1.313 1.25-1.313Zm0-7.438c.69 0 1.25.587 1.25 1.313 0 .725-.56 1.312-1.25 1.312s-1.25-.587-1.25-1.313c0-.725.56-1.312 1.25-1.312m0 14.875c.69 0 1.25.587 1.25 1.313 0 .725-.56 1.312-1.25 1.312s-1.25-.587-1.25-1.313c0-.725.56-1.312 1.25-1.312"
+      ></path>
+    </svg>
+  );
+};
+
+export default IconThreeDots;

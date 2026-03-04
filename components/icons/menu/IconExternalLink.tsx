@@ -1,0 +1,39 @@
+const IconExternalLink = ({ className }: { className?: string }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      className={className}
+    >
+      <g
+        fill="none"
+        fillRule="evenodd"
+        stroke="#FBCEA0"
+        strokeLinejoin="round"
+        transform="translate(.5 .5)"
+      >
+        <path
+          strokeLinecap="round"
+          strokeOpacity=".7"
+          d="M5.72222222,15 L1.78,15 C0.797777778,15 0,14.2022222 0,13.22 L0,9.27777778"
+        ></path>
+        <path
+          strokeLinecap="round"
+          strokeOpacity=".4"
+          d="M10.2129517,15 L13.22,15 C14.2022222,15 15,14.1922222 15,13.21 L15,1.78 C15,0.797777778 14.2122222,0.0100708008 13.23,0.0100708008 L1.78,0 C0.797777778,0 0,0.777777778 0,1.76 L0.00671386719,4.76696777"
+        ></path>
+        <line
+          x1="10.972"
+          x2="3.285"
+          y1="4.047"
+          y2="11.705"
+          strokeLinecap="round"
+        ></line>
+        <polyline points="5.5 4 11 4 11 9.5"></polyline>
+      </g>
+    </svg>
+  );
+};
+export default IconExternalLink;

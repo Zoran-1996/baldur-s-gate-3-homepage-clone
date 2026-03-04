@@ -1,0 +1,18 @@
+const IconDiamondLeft = ({ className }: { className?: string }) => {
+  return (
+    <svg
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      width="18"
+      height="8"
+      viewBox="0 0 18 8"
+    >
+      <g fill="none">
+        <polygon fill="#C5A589" points="3.841 0 18 4 3.841 8 0 4"></polygon>
+        <polygon fill="#FFEFE1" points="3.946 0 4.696 4 0 4"></polygon>
+      </g>
+    </svg>
+  );
+};
+
+export default IconDiamondLeft;

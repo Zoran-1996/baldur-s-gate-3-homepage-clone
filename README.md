@@ -1,7 +1,3 @@
-Here’s an updated `README.md` with your **actual folder structure** and placeholders for **Lighthouse score images** for mobile and desktop:
-
----
-
 # Baldur's Gate 3 Homepage Clone
 
 A **Baldur's Gate 3** homepage clone built with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**. This project recreates the main page website layout, styling, and interactive elements with some modifications for portfolio purposes.

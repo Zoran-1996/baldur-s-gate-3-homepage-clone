@@ -28,7 +28,7 @@
   }
 
   body {
-    @apply text-fog-white font-crimson bg-fixed bg-cover bg-no-repeat bg-center bg-[url("/images/body/bg3-theme-bg-mobile.webp")] lg:bg-[url("/images/body/bg3-theme-bg.webp")];
+    @apply text-fog-white font-crimson before:fixed before:top-0 before:left-0 before:w-screen before:h-screen before:-z-1 before:bg-[url("/images/body/bg3-theme-bg-mobile.webp")] before:lg:bg-[url("/images/body/bg3-theme-bg.webp")];
 
     @apply has-[.hero-video-modal]:overflow-hidden;
     @apply has-[.header-menu-overlay]:overflow-hidden;

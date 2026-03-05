@@ -1,9 +1,10 @@
 interface IconFeatureProps {
   className?: string;
   imageSrc: string;
+  isActive?: boolean;
 }
 
-const IconFeature = ({ className, imageSrc }: IconFeatureProps) => {
+const IconFeature = ({ className, imageSrc, isActive }: IconFeatureProps) => {
   return (
     <svg
       className={`group cursor-pointer ${className || ""}`}
@@ -64,7 +65,9 @@ const IconFeature = ({ className, imageSrc }: IconFeatureProps) => {
       </g>
       <g
         id="Hover"
-        className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        className={`transition-opacity duration-300 ${
+          isActive ? "opacity-100" : "opacity-0 group-hover:opacity-100"
+        }`}
       >
         <g id="Shape-2" clipPath="url(#feature-clippath-1)" data-name="Shape">
           <image xlinkHref={imageSrc} id="image" width="48" height="48"></image>

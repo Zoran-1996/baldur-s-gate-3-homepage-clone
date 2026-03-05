@@ -61,16 +61,6 @@ const Awards = () => {
                   sizes="160px"
                   style={{
                     objectFit: "contain",
-                  }}
-                />
-                <Image
-                  className="opacity-0 transition-opacity duration-400 ease-in-out hover:opacity-100"
-                  alt={award.label}
-                  src={award.imgSrcHovered}
-                  fill
-                  sizes="160px"
-                  style={{
-                    objectFit: "contain",
                     willChange: "opacity",
                     backfaceVisibility: "hidden",
                   }}

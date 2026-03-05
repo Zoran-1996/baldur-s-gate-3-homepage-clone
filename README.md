@@ -89,6 +89,13 @@ yarn start
 **Mobile**
 ![Mobile Lighthouse Score](./assets/docs/bg3-mobile-lighthouse.png)
 
+## Check out the live version of the website on Vercel:
+
+🔗 [https://baldurs-gate-3-homepage-clone.vercel.app](https://baldurs-gate-3-homepage-clone.vercel.app)
+
+> Note: On the first load, the site may take a few moments to fully render due to serverless deployment. Subsequent visits load instantly thanks to CDN caching.  
+> For the fastest performance, you should run it locally.
+
 ## 📄 License
 
 This project is **for portfolio purposes only**.

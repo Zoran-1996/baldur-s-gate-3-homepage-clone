@@ -17,6 +17,7 @@ A **Baldur's Gate 3** homepage clone built with **Next.js**, **React**, **TypeSc
 - **React**
 - **TypeScript**
 - **Tailwind CSS**
+- **Motion (motion.dev)** – used for a small animation component
 
 ## 📂 Project Structure
 

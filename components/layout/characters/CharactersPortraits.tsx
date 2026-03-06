@@ -51,7 +51,7 @@ const CharactersPortraits = ({
               src={hero.avatar}
               alt={hero.name}
               fill
-              style={{ objectFit: "contain" }}
+              style={{ objectFit: "cover" }}
               sizes="(min-width: 1024px) 150px, 80px"
             />
           </div>

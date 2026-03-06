@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <header className="fixed w-[90%] left-1/2 transform -translate-x-1/2 top-6 z-100">
-        <div className="flex items-center z-10">
+        <div className="flex items-center">
           <div className="pr-4 lg:pr-0">
             <HeaderLogo />
           </div>

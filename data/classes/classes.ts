@@ -384,7 +384,7 @@ export const classesData: ClassData[] = [
   {
     id: "wizard",
     name: "Wizard",
-    icon: "/icons/classes/Wizard.webp",
+    icon: "/icons/classes/wizard.webp",
     description:
       "Wizards master the arcane by specialising in individual schools of magic, combining ancient spells with modern research.",
     subclasses: [
